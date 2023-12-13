@@ -1,9 +1,6 @@
-//Author: Ashley Muka
-//Assignment Title: Program 5
+
 //Assignment Description: Calculate means of five integers
-//Due Date: 2/1/2023
-//Date Created: 2/1/2023
-//Date Last Modified: 2/1/2023
+
 
 #include <iostream>
 #include <iomanip>
@@ -28,8 +25,6 @@ const double SIZE = 5;
    double sumOfSquares;
    double prod;
 
-
-
    cout<<"Enter five numbers: " << endl;
 
    cin >> num1;
@@ -37,7 +32,6 @@ const double SIZE = 5;
    cin >> num3;
    cin >> num4;
    cin >> num5;
-
 
    cout << num1 << endl;
    cout << num2 << endl;
@@ -93,8 +87,6 @@ const double SIZE = 5;
    sumOfSquares = sumOfSquares + (num5 - a_Mean) * (num5 - a_Mean);
 
    stdDev = sqrt(sumOfSquares/5.0);
-
-
 
    cout<<"\n\nResult:\n\n";
    cout<<"Data:\n";
